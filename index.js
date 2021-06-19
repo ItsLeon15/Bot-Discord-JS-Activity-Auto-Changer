@@ -4,7 +4,7 @@ client.on('ready', () => { // When the bot turns on
         const statuses = [
             `on ${client.guilds.cache.size} servers`, // Enables the bot to show how many servers it's in, in the status
             `on ${client.channels.cache.size} channels`, // Enables the bot to show how many channels it's in, in the status
-            "to music...", // Enables the bot to send a message of your choice
+            "Music...", // Enables the bot to send a message of your choice
         ]
 
         const status = statuses[Math.floor(Math.random() * statuses.length)] // Chooses a random list from statuses and puts it into a variable.
