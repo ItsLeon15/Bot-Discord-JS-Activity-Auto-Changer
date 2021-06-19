@@ -2,8 +2,8 @@ client.on('ready', () => { // When the bot turns on
     setInterval(() => {
 
         const statuses = [
-            `on ${client.guilds.cache.size} servers`, // Enables the bot to show how many servers it's in, in the status
-            `on ${client.channels.cache.size} channels`, // Enables the bot to show how many channels it's in, in the status
+            `${client.guilds.cache.size} servers`, // Enables the bot to show how many servers it's in, in the status
+            `${client.channels.cache.size} channels`, // Enables the bot to show how many channels it's in, in the status
             "Music...", // Enables the bot to send a message of your choice
         ]
 
